@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file \"/c/Users/tlotl/Documents/Tlotlo Masisi Portfolio/\"*.js)"
+    ]
+  }
+}

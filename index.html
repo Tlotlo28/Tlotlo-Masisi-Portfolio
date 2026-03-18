@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tlotlo Masisi | IT Portfolio</title>
+  <link rel="icon" type="image/png" href="Assets/tlotlo.ico">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="terminal">
+      <p>>> Initializing Portfolio...</p>
+      <p>>> Loading Assets...</p>
+      <p>>> Launching Interface...</p>
+      <p class="blink">>_</p>
+    </div>
+  </div>
+
+  <!-- BACKGROUND -->
+  <div class="background">
+    <pre class="code-snippet">
+for dev in ["Tlotlo", "Masisi"]:
+    print("Welcome to my Portfolio!")
+    </pre>
+    <div class="shapes"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <div class="logo">Tlotlo <span>Masisi</span></div>
+      <ul>
+        <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="projects.html"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero reveal" id="home">
+    <img src="assets/avater.jpg" alt="Tlotlo Masisi" class="avatar" />
+    <h1>Hi, I'm <span>Tlotlo Masisi</span></h1>
+    <h3>Graduate in IT Systems Development</h3>
+    <p>
+      Step into my world of code and creativity! I blend technical expertise with artistic 
+      vision to build digital experiences that matter. From responsive websites and Python 
+      applications to stunning visual designs. This portfolio showcases my passion for 
+      turning ideas into reality. Dive in and see what we can create together!
+    </p>
+
+    <div class="hero-buttons">
+      <a href="Assets/Tlotlo Masisi CV.pdf" class="btn" download>
+        <i class="fas fa-download"></i> Download CV
+      </a>
+      <a href="about.html" class="btn">
+        <i class="fas fa-user"></i> About Me
+      </a>
+      <a href="projects.html" class="btn">
+        <i class="fas fa-laptop-code"></i> View Projects
+      </a>
+      <a href="contact.html" class="btn">
+        <i class="fas fa-envelope"></i> Contact
+      </a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

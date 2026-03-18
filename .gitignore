@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python (just in case)
+__pycache__/
+*.pyc
+venv/
+
+# Node (if you ever add it later)
+node_modules/
+
+# Logs
+*.log
