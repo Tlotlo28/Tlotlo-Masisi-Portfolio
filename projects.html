@@ -34,14 +34,13 @@ def project(name):
     
     <!-- Web Applications Section -->
 
-  
     <div class="project-category">
       <h2>Web Applications</h2>
       <div class="category-grid">
         <div class="project-card">
           <i class="fas fa-heartbeat project-icon"></i>
           <h3>Dr. Shihundla Website</h3>
-          <p>A professional website for a female doctor featuring services, contact information, and patient resources.</p>
+          <p>Designed and developed a modern one-page medical website for a healthcare professional using HTML, CSS, and JavaScript. The site features a responsive glassmorphism-inspired design, smooth scrolling animations, an interactive image carousel, academic research integration, service showcases, and a functional contact form — all optimized for a clean and professional user experience.</p>
           <div class="project-tech">
             <span class="tech-tag">HTML</span>
             <span class="tech-tag">CSS</span>
@@ -57,8 +56,69 @@ def project(name):
 
       <div class="project-card">
           <i class="fas fa-robot project-icon"></i>
+          <h3>Nwety</h3>
+          <p>Nwety — A bilingual chat app I built so my Portuguese-speaking sister in Mozambique and I could talk, and learn each other's language along the way. The app features real-time translation, voice input, and language learning tools to make our conversations seamless and educational. Built with Python, spaCy, Web Speech API, Groq LLM, FastAPI, and Argos Translate.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">spaCy</span>
+            <span class="tech-tag">Web Speech API</span>
+            <span class="tech-tag">Render</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Argos Translate</span>
+          </div>
+          <div class="project-links">
+            <a href="https://nwety.onrender.com" target="_blank" class="project-link">Live Demo</a>
+            <button onclick="openScreenshots(['Assets/HomePage Nwety.png', 'Assets/ChatNwety.png', 'Assets/Nwetydiscovery page.jpg'])" class="project-link">View Screenshot</button>
+          </div>
+        </div>
+      
+        <div class="project-card">
+          <i class="fas fa-robot project-icon"></i>
+          <h3>Connekkt</h3>
+          <p> Connekkt is a location-aware platform helping creatives discover each other on a map. Users sign up, pick their field (each gets its own colour and shape on the map), upload portrait photos with built-in cropping, and find nearby collaborators using a hold-to-scan radius button. Built solo with FastAPI + PostgreSQL on the backend, vanilla JavaScript + Leaflet on the frontend, JWT authentication, bcrypt password hashing, and server-side Haversine distance queries. Deployed on Render and Cloudflare Pages.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Cloudflare</span>
+            <span class="tech-tag">JWT</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">bcrypt</span>
+          </div>
+          <div class="project-links">
+            <a href="https://connekkt.pages.dev/onboarding" target="_blank" class="project-link">Live Demo</a>
+            <button onclick="openScreenshots(['Assets/OnbordingPage cn.png', 'Assets/OnbordingPage cn.png', 'Assets/ProfilePage cn.png'])" class="project-link">View Screenshot</button>
+            <span class="project-link" style="background: #666; cursor: not-allowed;">Work in progress</span>
+          </div>
+        </div>
+
+
+      <div class="project-card">
+          <i class="fas fa-robot project-icon"></i>
+          <h3>SmartInbox</h3>
+          <p>A full stack email client built on React and FastAPI that connects to Gmail, classifies emails using a custom scanner, summarizes long emails with Llama 3.1 AI, and helps users organise their inbox through color coding, archiving, and smart categories. Please email me if you would like to test the app with your email and provide feedback!
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Groq LLM</span>
+            <span class="tech-tag">FastAPI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://smart-inbox-weld.vercel.app" target="_blank" class="project-link">Live Demo</a>
+            <a href="https://github.com/Tlotlo28/SmartInbox" target="_blank" class="project-link">Full Code</a>
+            <button onclick="openScreenshots(['Assets/SmartInbox1.jpg', 'Assets/SmartInbox2.jpg'])" class="project-link">View Screenshot</button>
+          </div>
+        </div>
+
+      <div class="project-card">
+          <i class="fas fa-robot project-icon"></i>
           <h3>AIden</h3>
-          <p>An AI-powered web app where you input your business idea and receive a full breakdown — covering marketing strategies, competitor analysis, and pre-launch steps.</p>
+          <p>A full-stack AI web application that validates startup ideas in seconds. Paste your idea and Aiden returns a market demand score, competitor analysis, monetisation strategies, risks, advertising recommendations, and a step-by-step startup checklist — all powered by Llama 3.3 70B via the Groq API.
+          Built with FastAPI, vanilla HTML/CSS/JS, and a dark glassmorphism UI. Deployed on Vercel and Render.
+        </p>
           <div class="project-tech">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">HTML/CSS</span>
@@ -264,8 +324,7 @@ def project(name):
             <span class="tech-tag">Groq LLM</span>
           </div>
           <div class="project-links">
-            <!-- LINK - MeetingsAI: uncomment the line below and replace YOUR_URL_HERE with the actual link once testing is complete -->
-            <!-- <a href="YOUR_URL_HERE" target="_blank" class="project-link">Download</a> -->
+            <!-- <a href="MY_URL_HERE" target="_blank" class="project-link">Download</a> -->
             <span class="project-link" style="background: #666; cursor: not-allowed;">In Testing — Link Coming Soon</span>
             <button onclick="openScreenshots(['Assets/MAI 1.png', 'Assets/MAI 2.png'])" class="project-link">View Screenshots</button>
           </div>
@@ -282,8 +341,7 @@ def project(name):
             <span class="tech-tag">Productivity</span>
           </div>
           <div class="project-links">
-            <!-- LINK - Modisa Release Manager: uncomment the line below and replace YOUR_URL_HERE with the actual link once testing is done -->
-            <!-- <a href="YOUR_URL_HERE" target="_blank" class="project-link">Download</a> -->
+            <!-- <a href="My_URL_HERE" target="_blank" class="project-link">Download</a> -->
             <span class="project-link" style="background: #666; cursor: not-allowed;">In Testing — Link Coming Soon</span>
             <button onclick="openScreenshots(['Assets/MRM.png'])" class="project-link">View Screenshot</button>
           </div>
